@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/m_icon.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateo Carre</title>
+    <!-- EMAILJS-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("tylUiFVShBMeuNkmX");
+      })();
+    </script>
+  </head>
+  <body class="light-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="div">Inspired by boko33.</div> -->
+
+    <div class="page" asscroll-container>
+
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15Zm0 2q-2.075 0-3.537-1.463Q7 14.075 7 12t1.463-3.538Q9.925 7 12 7t3.538 1.462Q17 9.925 17 12q0 2.075-1.462 3.537Q14.075 17 12 17ZM2 13q-.425 0-.712-.288Q1 12.425 1 12t.288-.713Q1.575 11 2 11h2q.425 0 .713.287Q5 11.575 5 12t-.287.712Q4.425 13 4 13Zm18 0q-.425 0-.712-.288Q19 12.425 19 12t.288-.713Q19.575 11 20 11h2q.425 0 .712.287.288.288.288.713t-.288.712Q22.425 13 22 13Zm-8-8q-.425 0-.712-.288Q11 4.425 11 4V2q0-.425.288-.713Q11.575 1 12 1t.713.287Q13 1.575 13 2v2q0 .425-.287.712Q12.425 5 12 5Zm0 18q-.425 0-.712-.288Q11 22.425 11 22v-2q0-.425.288-.712Q11.575 19 12 19t.713.288Q13 19.575 13 20v2q0 .425-.287.712Q12.425 23 12 23ZM5.65 7.05 4.575 6q-.3-.275-.288-.7.013-.425.288-.725.3-.3.725-.3t.7.3L7.05 5.65q.275.3.275.7 0 .4-.275.7-.275.3-.687.287-.413-.012-.713-.287ZM18 19.425l-1.05-1.075q-.275-.3-.275-.712 0-.413.275-.688.275-.3.688-.287.412.012.712.287L19.425 18q.3.275.288.7-.013.425-.288.725-.3.3-.725.3t-.7-.3ZM16.95 7.05q-.3-.275-.287-.688.012-.412.287-.712L18 4.575q.275-.3.7-.288.425.013.725.288.3.3.3.725t-.3.7L18.35 7.05q-.3.275-.7.275-.4 0-.7-.275ZM4.575 19.425q-.3-.3-.3-.725t.3-.7l1.075-1.05q.3-.275.713-.275.412 0 .687.275.3.275.288.688-.013.412-.288.712L6 19.425q-.275.3-.7.287-.425-.012-.725-.287ZM12 12Z"/></svg>
+        </div>
+        <button class="toggle-button">
+          <div class="toggle-circle"></div>
+        </button>
+        <div class="moon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 21q-3.75 0-6.375-2.625T3 12q0-3.75 2.625-6.375T12 3q.35 0 .688.025.337.025.662.075-1.025.725-1.637 1.887Q11.1 6.15 11.1 7.5q0 2.25 1.575 3.825Q14.25 12.9 16.5 12.9q1.375 0 2.525-.613 1.15-.612 1.875-1.637.05.325.075.662Q21 11.65 21 12q0 3.75-2.625 6.375T12 21Zm0-2q2.2 0 3.95-1.212 1.75-1.213 2.55-3.163-.5.125-1 .2-.5.075-1 .075-3.075 0-5.238-2.162Q9.1 10.575 9.1 7.5q0-.5.075-1t.2-1q-1.95.8-3.162 2.55Q5 9.8 5 12q0 2.9 2.05 4.95Q9.1 19 12 19Zm-.25-6.75Z"/></svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper" asscroll>
+        <section class="hero">
+          <div class="hero-wrapper">
+
+            <!-- Intro Stuff-->
+            <div class="intro-text">Welcome to my portfolio !</div>
+            <div class="arrow-svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path fill="currentColor" d="M12 14.95q-.2 0-.375-.063-.175-.062-.325-.212L6.675 10.05q-.275-.275-.262-.688.012-.412.287-.687.275-.275.7-.275.425 0 .7.275l3.9 3.9 3.925-3.925q.275-.275.688-.263.412.013.687.288.275.275.275.7 0 .425-.275.7l-4.6 4.6q-.15.15-.325.212-.175.063-.375.063Z"/></svg>
+            </div>
+
+            <div class="hero-main">
+              <h1 class="hero-main-title">Mateo Carre</h1>
+              <p class="hero-main-description">Business Student | Entrepreneur</p>
+            </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading first-sub">Mateo Carre</p>
+              <p class="hero-second-subheading second-sub">Portfolio</p>
+            </div>
+          </div>
+        </section> 
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div> 
+
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">About Me</span>
+              <h2 class="section-secondary-title-text">My Introduction</h2>
+            </h1>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <img class="portrait" src="img/portrait.jpg" alt="portrait">
+            <div class="badges-wrapper">
+              <div class="badge-wrapper">
+                <i class="fa-solid fa-calendar-days badge-icon"></i>
+                <h4>5</h4>
+                <p>Years of experience</p>
+              </div>
+              <div class="badge-wrapper">
+                <i class="fa-solid fa-fire-flame-curved badge-icon"></i>
+                <h4>48</h4>
+                <p>Projects completed</p>
+              </div>
+              <div class="badge-wrapper">
+                <i class="fa-solid fa-mug-saucer badge-icon"></i>
+                <h4>5670</h4>
+                <p>Cups of coffee</p>
+              </div>
+            </div>
+            <p class="intro-desc">
+              I am Matéo, a multi-talented profile who dabbles in everything from 3D modeling to web development and video production. With a passion for all things web3, I'm always on the lookout for new and exciting ways to push the boundaries of technology. Whether it's coding or creating killer marketing campaigns, I'm up for any challenge 🚀
+            </p>
+            <a href="./Matéo Carré Resume.pdf" download>
+              <button class="cv-btn"></i>Download CV <i class="fa-solid fa-arrow-down"></i></button>
+            </a>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Skills</span>
+              <h2 class="section-secondary-title-text">My Top Competences</h2>
+            </h1>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <div class="skills-wrapper">
+              <div class="skill-box skill-1">
+                <img src="img/skills/mateo-carre-project-management.png" alt="mateo carre project management" class="skill-icon">
+                <h4 class="skill-title">Project Management</h4>
+                <p class="skill-description">I always organize group projects with tools like Notion or Trello.</p>
+              </div>
+              <div class="skill-box skill-2">
+                <img src="img/skills/mateo-carre-digital-marketing.png" alt="mateo carre digital marketing" class="skill-icon">
+                <h4 class="skill-title">Digital Marketing</h4>
+                <p class="skill-description">Facebook Ads, Google Ads or TikTok Ads have no secret to me.</p>
+              </div>
+              <div class="skill-box skill-3">
+                <img src="img/skills/mateo-carre-seo-strategy.png" alt="mateo carre seo strategy" class="skill-icon">
+                <h4 class="skill-title">SEO</h4>
+                <p class="skill-description">I have 4 years of experience in SEO, and optimized many e-commerce websites.</p>
+              </div>
+              <div class="skill-box skill-4">
+                <img src="img/skills/mateo-carre-web-development.png" alt="mateo carre web development" class="skill-icon">
+                <h4 class="skill-title">Web Development</h4>
+                <p class="skill-description">I have been developing in HTML, CSS, Javascript and more recently NodeJS and ReactJS for more than 6 years.</p>
+              </div>
+              <div class="skill-box skill-5">
+                <img src="img/skills/mateo-carre-video-production.png" alt="mateo carre video production" class="skill-icon">
+                <h4 class="skill-title">Video Production</h4>
+                <p class="skill-description">I absolutely love making videos, that's why I often create one when I have to present a topic.</p>
+              </div>
+              <div class="skill-box skill-6">
+                <img src="img/skills/mateo-carre-adobe-suite.png" alt="mateo carre adobe suite" class="skill-icon">
+                <h4 class="skill-title">Adobe Suite</h4>
+                <p class="skill-description">I master all the main Adobe softwares : Photoshop, Illustrator, After Effects, Audition...</p>
+              </div>
+              <div class="skill-box skill-7">
+                <img src="img/skills/mateo-carre-3d-blender.png" alt="mateo carre 3d blender" class="skill-icon">
+                <h4 class="skill-title">3D</h4>
+                <p class="skill-description">I used to work on Cinema 4D and now use Blender, and absolutely love it.</p>
+              </div>
+              <div class="skill-box skill-8">
+                <img src="img/skills/mateo-carre-python-development.png" alt="mateo carre python development" class="skill-icon">
+                <h4 class="skill-title">Python</h4>
+                <p class="skill-description">The first programming language I learnt. I mainly use it in AI and Data Science projects.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Qualification</span>
+              <h2 class="section-secondary-title-text">My Personal Journey</h2>
+            </h1>
+          </div>
+
+          <div class="section-details-wrapper">
+            <ul class="timeline-button">
+              <li class="list-2 active" data-filter="experience"><i class="fa-solid fa-briefcase"> </i> Experience</li>
+              <li class="list-2" data-filter="education"><i class="fa-solid fa-graduation-cap"> </i> Education</li>
+            </ul>
+
+            <div class="experience-wrapper" data-item="experience">
+              <div class="timeline-wrapper">
+                <div class="timeline">
+                  <!-- FIRST POINT -->
+                  <div class="timeline-object">
+                    <div class="timeline-status"></div>
+                    <div class="timeline-content">
+                      <h4>Vice Treasurer</h4>
+                      <h5>Highschool Marie Curie</h5>
+                      <p><i class="fa-solid fa-calendar-days"> </i> 2018</p>
+                    </div>
+                  </div>
+
+                  <!-- SECOND POINT-->
+                  <div class="timeline-object">
+                    <div class="timeline-status"></div>
+                    <div class="timeline-content">
+                      <h4>Freelancer</h4>
+                      <h5>Fiverr</h5>
+                        <p><i class="fa-solid fa-calendar-days"> </i> 2021 - Today</p>
+                    </div>
+                  </div>
+
+                  <!-- THIRD POINT -->
+                  <div class="timeline-object">
+                    <div class="timeline-status"></div>
+                    <div class="timeline-content">
+                      <h4>Partnerships Manager</h4>
+                      <h5>Gaming Campus Student Council</h5>
+                        <p><i class="fa-solid fa-calendar-days"></i> 2022 - Today</p>
+                    </div>
+                  </div>
+
+                  <!-- FOURTH POINT -->
+                  <div class="timeline-object timeline-end">
+                    <div class="timeline-status"></div>
+                    <div class="timeline-content">
+                      <h4>Digital Marketing Manager</h4>
+                      <h5>Scarabeen</h5>
+                        <p><i class="fa-solid fa-calendar-days"> </i> 2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+            <div class="experience-wrapper hide" data-item="education">
+              <div class="timeline-wrapper">
+                <div class="timeline">
+                  <!-- FIRST POINT -->
+                  <div class="timeline-object">
+                    <div class="timeline-status"></div>
+                    <div class="timeline-content">
+                      <h4>European Diploma of German</h4>
+                      <h5>Paris</h5>
+                      <p><i class="fa-solid fa-calendar-days"> </i> 2018</p>
+                    </div>
+                  </div>
+
+                  <!-- SECOND POINT-->
+                  <div class="timeline-object">
+                    <div class="timeline-status"></div>
+                    <div class="timeline-content">
+                      <h4>General Baccalaureate</h4>
+                      <h5>Paris</h5>
+                        <p><i class="fa-solid fa-calendar-days"> </i> 2018 - 2021</p>
+                    </div>
+                  </div>
+
+                  <!-- THIRD POINT -->
+                  <div class="timeline-object">
+                    <div class="timeline-status"></div>
+                    <div class="timeline-content">
+                      <h4>Video Game Management Bachelor</h4>
+                      <h5>Lyon</h5>
+                        <p><i class="fa-solid fa-calendar-days"></i> 2021 - Today</p>
+                    </div>
+                  </div>
+
+                  <!-- FOURTH POINT -->
+                  <div class="timeline-object timeline-end">
+                    <div class="timeline-status"></div>
+                    <div class="timeline-content">
+                      <h4>The Fundamentals of Digital Marketing</h4>
+                      <h5>Google</h5>
+                        <p><i class="fa-solid fa-calendar-days"> </i> 2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">My Work</span>
+              <h2 class="section-secondary-title-text">What I do</h2>
+            </h1>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <ul>
+              <div class="filter-firstline">
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="dev">Dev</li>
+              </div>
+              <div class="filter-secondline">
+                <li class="list" data-filter="video">Video</li>
+                <li class="list" data-filter="art">Art</li>
+                <li class="list" data-filter="3d">3D</li>
+              </div>
+            </ul>
+            <div class="projects-wrapper">
+
+                <div class="project-box" data-item="3d">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-3d-keyboard-blender.webp" alt="mateo carre 3d keyboard blender">
+                  </div>
+                  <div class="hover-item">
+                    <h4>3D Keyboard</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_blenderart-3dmodelling-blenderrender-activity-6983687204967452672-91KU?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="dev">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-flappy-bird-ai-python.webp" alt="mateo carre flappy bird ai python">
+                  </div>
+                  <div class="hover-item">
+                    <h4>Flappy Bird AI</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_python-ai-machinelearning-activity-7001178470680539136-T6zy?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="video">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-sboy-horror-podcast.webp" alt="mateo carre sboy horror podcast">
+                  </div>
+                  <div class="hover-item">
+                    <h4>Horror Podcast</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_podcast-creepy-3danimation-activity-7006255486752731136-tUgo?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                      <a href="https://www.youtube.com/watch?v=cxDzMuDlIsE" target="_blank" class="icon">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="video">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-interview-sabine-commaret.webp" alt="mateo carre interview sabine commaret">
+                  </div>
+                  <div class="hover-item">
+                    <h4>Interview with a Jewelry Designer</h4>
+                    <div class="icons">
+                      <a href="https://www.youtube.com/watch?v=NmRx8it078U" target="_blank" class="icon">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="art">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-naruto-light-drawing.webp" alt="mateo carre naruto light drawing">
+                  </div>
+                  <div class="hover-item">
+                    <h4>Naruto Light Drawing</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_photoshop-gamingcampus-photoshopwork-activity-6927132794187882496-oJ5j?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="video">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-interview-pierre-tartaix.webp" alt="mateo carre interview pierre tartaix">
+                  </div>
+                  <div class="hover-item">
+                    <h4>Interview of a Brand Manager</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_interview-brandmanager-jeuxvideo-activity-6988035059849035776-EhiW?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/posts/mateocarre_interview-brandmanager-jeuxvideo-activity-6988035059849035776-EhiW?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="dev">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-thewitcher-website.webp" alt="mateo carre thewitcher website">
+                  </div>
+                  <div class="hover-item">
+                    <h4>The Witcher Website</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_websitedesign-thewitcher-htmlcss-activity-6865904345616068608-O2Ql?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                      <a href="https://www.youtube.com/watch?v=cHBfC9gdN-U" target="_blank" class="icon">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="art">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-twitch-waiting-screen.webp" alt="mateo carre twitch waiting screen">
+                  </div>
+                  <div class="hover-item">
+                    <h4>Twitch Assets</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_twitch-aftereffects-photoshop-activity-7015939639781793792-LuNy?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="dev">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-creative-portfolio.webp" alt="mateo carre creative portfolio">
+                  </div>
+                  <div class="hover-item">
+                    <h4>Creative Portfolio</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_webdevelopment-portfoliowebsite-portfolio-activity-6905112302547193856-wTsT?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                      <a href="https://www.youtube.com/watch?v=yuOwyKSK1kw" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-item="3d">
+                  <div class="port-image">
+                    <img src="img/portfolio/mateo-carre-3d-building-blender.webp" alt="mateo carre 3d building blender">
+                  </div>
+                  <div class="hover-item">
+                    <h4>3D Isometric Building</h4>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/posts/mateocarre_blenderart-3drender-3dmodel-activity-6978633107516104704-0GAF?utm_source=share&utm_medium=member_desktop" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </section>
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar green-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Get in Touch</span>
+            </h1>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <p class="talk">Let's talk about everything !</p>
+            <p>Don't like forms ? Send me an email ✋</p>
+          </div>
+          <div class="form-wrapper">
+            <form name="contact-form">
+              <div class="form-firstline">
+                <input type="text" placeholder="Insert your name" id="name" required>
+                <input type="email" placeholder="Insert your email" id="email" required>
+              </div>
+              <input type="text" placeholder="Insert your subject" id="subject" required>
+              <textarea name="message" placeholder="Write your message" id="message" required></textarea>
+              <button type="button" onclick="SendMail()" id="submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></i></button>
+            </form>
+          </div>
+          <div class="contact-wrapper">
+            <div class="contact-first-line">
+              <div class="contact-box">
+                <i class="fa-solid fa-envelope"></i>
+                <h4 class="contact-title">Email</h4>
+                <p>mateocarre7@outlook.fr</p>
+              </div>
+              <div class="contact-box">
+                <i class="fa-brands fa-whatsapp"></i>
+                <h4 class="contact-title">WhatsApp</h4>
+                <p>+33769314980</p>
+              </div>
+            </div>
+            <div class="contact-box">
+              <i class="fa-brands fa-linkedin"></i>
+              <h4 class="contact-title">LinkedIn</h4>
+              <p>Matéo Carré</p>
+            </div>
+          </div>
+          <span class="credits">Inspired by boko33</span>
+        </section>
+
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script>
+      // EmailJS
+
+      function SendMail(){
+          var params = {
+              name : document.getElementById("name").value,
+              email : document.getElementById("email").value,
+              subject : document.getElementById("subject").value,
+              message : document.getElementById("message").value
+          }
+          emailjs.send("service_lc5xk98", "template_5xv14fl", params).then(function(res){
+              console.log("Message Sent ! " + res.status);
+          });
+        var frm = document.getElementsByName('contact-form')[0];
+        frm.reset();
+      }
+    </script>
+  </body>
+</html>
